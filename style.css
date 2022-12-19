@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+background-color: aquamarine;
+}
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+}
+.wrapper{
+    display: grid;
+    background-color: #d6b0f9;
+    gap:20px 50px;
+    
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    justify-items: center;
+    align-items: center;
+    justify-content:center;
+    align-content:center;
+}
+.card:nth-child(1){
+    background-color: rgb(255, 255, 255);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* width: 50%;
+    width: 300px; */
+}
+.card:nth-child(2){
+    background-color: rgb(255, 255, 255);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* width: 50%;
+    width: 300px; */
+}
+.text{
+    display: grid;
+    background-color: #ffffff;
+    grid-template-rows: 100px repeat(1,6);
+    gap:20px 20px;
+   
+}
+.img{
+    height: 100px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.col1{
+background-size: cover;
+background-image: url(https://cdn-icons-png.flaticon.com/512/6889/6889367.png);
+}
+.col2{
+    background-size: cover;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/949/949644.png);
+}
+
+.col3{
+    background-size: cover;
+    background-image: url(https://cdn.icon-icons.com/icons2/2859/PNG/512/avatar_face_girl_female_woman_profile_smiley_happy_people_icon_181662.png);
+}
+
+.col4{
+    background-size: cover;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/921/921053.png);
+} 
